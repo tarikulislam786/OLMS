@@ -1,0 +1,70 @@
+a{
+    cursor:pointer;
+}
+.tree {
+    width: 100%;
+    float: left;
+    padding: 0px 10px;
+}
+.tree ul {
+    list-style: none outside none;
+    padding: 0px;
+}
+.tree li {
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.tree li a {
+    line-height: 25px;
+    float: left;
+}
+.tree li .pull-right a{
+    line-height: normal !important;
+    margin-left: 5px;
+}
+.tree > ul > li > a {
+    color: #3B4C56;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+.tree li.parent > a {
+    padding: 0 0 0 28px;
+}
+.tree li.parent > a:before {
+    font-family: 'Glyphicons Halflings';
+    background-image: url("");
+    background-position: 25px center;
+    content: "\e258";
+    display: block;
+    height: 21px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    vertical-align: middle;
+    width: 23px;
+}
+.tree ul li.active > a:before {
+    background-position: 0 center;
+    content: "\e259";
+}
+.tree ul li ul {
+    border-left: 1px solid #D9DADB;
+    display: none;
+    margin: 0 0 0 35px;
+    overflow: hidden;
+    padding: 0 0 0 25px;
+}
+.tree ul li ul li {
+    position: relative;
+}
+.tree ul li ul li:before {
+    border-bottom: 1px dashed #cccccc;
+    content: "";
+    left: -20px;
+    position: absolute;
+    top: 18px;
+    width: 15px;
+}

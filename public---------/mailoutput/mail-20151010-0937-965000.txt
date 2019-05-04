@@ -1,0 +1,23 @@
+To: aitldev1@gmail.com
+Subject: Learning Laravel test email
+Message-ID: <b3782e48cd4ed0b9be1e98176b1bcca4@localhost>
+Date: Sat, 10 Oct 2015 09:37:44 +0000
+From: Learning Laravel <tarikulislam.cse@gmail.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en-US">
+<head>
+    <meta charset=3D"utf-8">
+</head>
+<body>
+<h2>Learning Laravel!</h2>
+
+<div>
+    Welcome to website!
+</div>
+
+</body>
+</html>
